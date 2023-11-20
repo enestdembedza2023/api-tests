@@ -15,7 +15,7 @@ spec:
       containers:
         - name: enest-api
         #This image is going to be the path to the image you create in a future step
-          image: us-docker.pkg.dev/scrum-team-4/enest-api
+          image: us-docker.pkg.dev/scrum-team-4/enest-api/api-tests
           ports:
             - containerPort: 3000
           resources:
